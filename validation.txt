@@ -1,0 +1,7 @@
+Validated locally on 2026-09-09
+Python 3.9.6
+Original blank-line failure reproduced: JSONDecodeError
+Command: python3 -m unittest -v test_converter.py
+6 tests passed, 0 failures, 0 errors
+Coverage: BOM/blank lines/Unicode/large integer; escaped newline; exact invalid line; existing output retained; invalid input retains output; nonstandard JSON constants and non-object records rejected.
+No customer code or private data used.
